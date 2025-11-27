@@ -1,0 +1,45 @@
+in c ->  to save the file -> .c   / .cpp
+
+
+-> Bjanre Stroustrup -> introduction to C++
+-> c++ -> 1983
+
+latest version -> c++20  -> 2020, c++23 -> 2023
+
+
+
+
+    Why we use c++?
+    -> os -> gr ui, embedded
+
+
+    -> oops -> reused , lowering development costs.
+
+--------------------------------------------------------
+
+-> formating ,  
+-> oops
+-> c is not support class and obj where c++ give us permmission to access
+
+
+------------------------------------
+
+
+syntax : 
+
+    hader file
+    -> print , scan
+
+    ---> u cant access the conio in vs -> clrscr(), getch()
+
+
+
+    stdio.h -> i o stream -> input output Stream 
+    printf -> cout -> Consol output
+    scanf -> cin -> Consol input
+    () -> << -> display , >> -> input
+ 
+
+void main() -> main function
+
+int main() -> data type
