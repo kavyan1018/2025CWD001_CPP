@@ -1,0 +1,52 @@
+dsa -> Data Structures and Algorithms
+
+
+    data structures 
+        -> a way of organizing and storing data so that can be accessed and modified efficiently
+
+
+    algorithms
+        -> a step by step procedure to solve a problem or perform a task
+
+
+
+
+                                types of ds 
+                                    |
+    -------------------------------------------------------------------------------
+    |                                                                             |                       
+1. Linear Data Structures                                                  2. Non-Linear Data Structures
+    -> elements are arranged sequential                                     -> data is organized non-sequentially
+            
+            1. array                                                                1. tree
+            2. linked list                                                          2. graph
+            3. stack                                                                3. heap
+            4. queue                                                                4. hash
+            5. deque
+
+            sorting , searching , traversal 
+
+
+        Searching : Linear Search , Binary Search  
+        Sorting   : bubble , selection , insertion , merge , quick 
+
+dsa -> C programming language 
+        
+py, cpp, java, js
+
+
+
+
+----------------------------
+complexity analysis 
+
+        complexity meaning 
+            -> a measure of the amount of resources required to solve a problem or perform a task, as a function of the size of the input
+
+    -> time complexity 
+            -> the amount of time required to solve a problem or perform a task, as a function of the size of the input
+
+    -> space complexity
+            -> the amount of memory required to solve a problem or perform a task, as a function of the size of the input
+
+
