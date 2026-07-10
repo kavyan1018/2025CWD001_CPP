@@ -1,0 +1,58 @@
+type of dev
+
+    - Frontend Developer
+            -> HTML, CSS, JavaScript
+
+    - Backend Developer 
+            -> Node.js, Python, Java
+
+    - Full Stack Developer
+            -> HTML, CSS, JavaScript, Node.js, Python, Java
+
+    - Data Base
+            -> SQL, MongoDB, PLSQL
+
+
+--------------------------------------
+
+
+CSS -> Cascading Style Sheets
+
+    - CSS is used to style the HTML elements on a web page.
+    - It allows you to change the layout, colors, fonts, and overall appearance of a website.
+    - CSS can be applied inline, internally within a <style> tag, or externally through a separate .css file.
+
+
+1. Inline CSS
+
+2. Internal CSS
+
+3. External CSS    -> file_name.css
+
+
+css -> 1996
+
+
+
+type of selectors
+
+tag
+    - Selects all elements of a specific type
+
+id
+    - Selects a single element with a specific id attribute
+
+class
+    - Selects all elements with a specific class attribute
+
+
+    selectors : tag/ id/ class {}
+    property : color/ background-color/ font-size
+    value : red/ blue/ 16px
+
+
+
+    -> selectors { property : value;
+                    property : value;
+                    property : value;
+            }
