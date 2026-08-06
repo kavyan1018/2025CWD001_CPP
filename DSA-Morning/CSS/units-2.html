@@ -7,10 +7,57 @@
     <title>Document</title>
 </head>
 <style>
-    
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* vw -> viewport width 
+    and 
+    vh -> viewport height
+    */
+
+
+    /* img{
+        width: 100vw;
+        height: 100vh;
+    } */
+
+    .outer{
+
+        background-color: yellow;
+        height: 500px;
+        /* width: 1200px; */
+        width: 90vw;
+    }
+
+    .inner{
+        background-color: red;
+        height: 350px;
+        width: 90%;
+        /* width: 90vw; */
+    }
+
+    .inner-most{
+        background-color: black;
+        /* 
+            rgb    -> 0 - 255
+            rgba  -> 0 - 255, 0 - 1
+            #
+            name
+        */
+
+        /* background-color: rgb(155,213,78);
+        background-color: #9BD54E; */
+        background-color: #71709c;
+        background-color: rgba(39, 243, 8, 1);
+    }
+
 </style>
 <body>
-    <!-- <img src="/images/mountain-landscape-2031539_1280.jpg" alt=""> -->
+    <!-- <img src="./image.png" alt=""> -->
     <div class="outer">
         <br><br><br>
         <div class="inner">
