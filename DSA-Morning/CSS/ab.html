@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* div{
+        width: 200px;
+        text-align: center;
+    }
+
+    #I{
+        background-color: orange;
+    }
+
+    #love{
+        background-color: white;
+    }
+    #india{
+        background-color: green;
+    } */
+
+    h1::before{
+        content: "I";
+        display: block;
+        background-color: orange;
+    }
+
+    h1::after{
+        content: "India";
+        display: block;
+        background-color: green;
+    }
+
+    h1{
+        text-align: center;
+        width: 300px;
+    }
+
+
+</style>
+
+<body>
+
+    <!-- <div id="I">I</div> -->
+    <!-- <div id="love">Love</div> -->
+    <!-- <div id="india">India</div> -->
+
+    <h1>Love</h1>
+
+</body>
+
+</html>
