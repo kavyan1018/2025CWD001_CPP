@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* flex */
+    
+    .container{
+
+        border: solid red;
+        display: flex;
+        height: 100vh;
+
+        /* gap: 1rem; */
+
+        /* justify-content: ; */
+
+        /* justify-content: center; */
+        /* justify-content: right; */
+        /* justify-content: left; */
+        justify-content: space-between;
+        /* justify-content: space-evenly; */
+        /* justify-content: space-around; */
+
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+
+        /* flex-direction: ; */
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+
+        /*  */
+        /* flex-flow: column wrap; */
+
+    }
+
+    .boxes{
+        border: solid green;
+        height: 100px;
+        width: 100px;
+    }
+
+    #box-1{
+        /* flex-shrink: 1;   def - 1 */
+        /* flex-shrink: 0; */
+    }
+
+    #box-2{
+        /* flex-shrink: 0.5; */
+        flex-grow: 3;
+        order: 1;   /* 0 - 1 */
+    }
+
+    #box-5{
+        flex-grow: 2;
+        order: 3;
+    }
+
+</style>
+
+<body>
+    
+    <div class="container">
+
+        <!-- (font.boxes#box-$>lorem9)*6 -->
+
+        <div class="boxes" id="box-1">Box 1</div>
+        <div class="boxes" id="box-2">Box 2</div>
+        <div class="boxes" id="box-3">Box 3</div>
+        <div class="boxes" id="box-4">Box 4</div>
+        <div class="boxes" id="box-5">Box 5</div>
+        <div class="boxes" id="box-6">This is a Box 6</div>
+
+    </div>
+
+</body>
+</html>
