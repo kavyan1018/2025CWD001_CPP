@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        padding: 20px;
+    }
+
+    .container{
+        display: grid;
+
+        /* grid-template-columns: 300px 200px 100px 100px; */
+        /* grid-template-columns: 25% 25% 25% 25%; */
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card{
+        border: solid;
+    }
+
+    #c1{
+        grid-column: span 2;
+    }
+/* 
+    #c2{
+        grid-row: span 2;
+    } */
+
+    #c3{
+        grid-row: span 2;
+    }
+
+    #c5{
+        grid-column: span 2;
+    }
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="card" id="c1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium eos tenetur pariatur consectetur sequi, commodi ipsum voluptas impedit soluta provident dicta vero consequuntur aspernatur libero, quisquam facere illo iusto corporis odit nisi beatae, molestiae unde. Temporibus sint accusamus delectus, corrupti quaerat architecto repudiandae autem beatae pariatur ducimus esse labore magni!</div>
+        <div class="card" id="c2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum atque placeat quo veniam in id mollitia praesentium consequatur rem, commodi aspernatur consectetur corrupti doloribus, itaque voluptatum voluptas autem accusantium voluptatem? Molestias eligendi reprehenderit esse repellat quos aut repudiandae saepe suscipit nihil quaerat illo, nam mollitia voluptatem beatae harum. Porro, excepturi!</div>
+        <div class="card" id="c3">Card 3</div>
+        <div class="card" id="c4">Card 4</div>
+        <div class="card" id="c5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat numquam corporis qui excepturi voluptas placeat quia quos voluptatum accusantium eum assumenda quisquam sint harum atque non sapiente nihil omnis consectetur, sit tempore suscipit, corrupti, molestias nesciunt cupiditate. Nisi id magni iure neque dolore nesciunt voluptatum illo incidunt cum, soluta temporibus. Explicabo eum officia eos vero numquam accusamus sed? Amet, sit!</div>
+        <!-- <div class="card" id="c6">Card 6</div> -->
+    </div>
+
+</body>
+</html>
