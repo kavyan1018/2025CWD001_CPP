@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-bar{
+        display: flex;
+        font-size: 1.6rem;
+        list-style: none;
+        padding: 20px;
+        /* justify-content: space-around; */
+    }
+
+    .nav-list{
+        margin-left: 20px;
+    }
+
+    #list1{
+        font-size: 2rem;
+    }
+
+    #list2, #list3{
+        margin-top: 6px;
+    }
+
+    .search{
+        margin-left: auto;
+    }
+    .search-bar{
+
+        border: solid;
+        height: 30px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    button{
+
+        background-color: transparent;
+        border: solid 2px green;
+        height: 40px;
+        width: 70px;
+        border-radius: 20px;
+        color: green;
+    }
+
+</style>
+<body>
+    
+    <nav>
+
+        <div class="nav-bar">
+            <li class="nav-list" id="list1">Home</li>
+            <li class="nav-list" id="list2">Link</li>
+            <li class="nav-list" id="list3">DropDown</li>
+            
+            <div class="search">
+
+                <input type="text" class="search-bar" placeholder="Search">
+                <button>Search</button>
+            </div>
+        
+        </div>
+
+    </nav>
+
+</body>
+</html>
