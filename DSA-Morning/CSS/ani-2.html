@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    
+    }
+
+    .progress{
+        height: 50px;
+        background-color: green;
+        width: 20px;
+
+        animation-name: first;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .shape-parent{
+        border: solid blue;
+        height: 350px;
+        position: relative;
+    }
+
+    .shape{
+        border: solid;
+        background-color: red;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: second 4s;
+        animation-iteration-count: infinite;
+
+    }
+
+    /* @keyframes name */
+
+    @keyframes first{
+
+        /* from & to */
+        from{
+            width: 20px;
+        }
+        to{
+            width: 100%;
+        }
+    }
+
+    @keyframes second{
+
+        0%{
+            top: 0;
+            left: 50px;
+        }
+        25%{
+            top: 270px;
+            left: 50px;
+            border-radius: 50%;
+        }
+        50%{
+            top: 270px;
+            left: 400px;
+        }
+        75%{
+            top: 0;
+            left: 400px;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+    }
+
+</style>
+<body>
+    
+    <div class="progress"></div>
+    <div class="shape-parent">
+        <div class="shape"></div>
+    </div>
+
+
+</body>
+</html>
